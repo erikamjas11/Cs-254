@@ -4,12 +4,13 @@
 | 
 |   Compute N factorial for N=1 to 50. | 
 */ 
+#As N increases the output increases, until N reaches 17 then the output randomly turns to a negative. 34 to 50 has an output of 0. I believe the reason for this is because there is to much data trying to be put into the stack. Which creates a stack overflow and causes the data malfunction in the program.
 
 
 public class Factorial
 {
     public static void main(String [] args){
-        
+    
         
         int Lowest=0; 
         int Highest=50; 
